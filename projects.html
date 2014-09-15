@@ -1,0 +1,39 @@
+---
+layout: default
+title: Projects
+---
+
+<div class="row">
+  <ul class="breadcrumbs">
+    <li><a href="{{site.baseurl}}/index.html">Home</a></li>
+    <li class="current">Projects</li>
+  </ul>
+</div>
+
+
+<div class="row">
+  <dl class="accordion" data-accordion>
+    {% for post in site.categories['projects'] %}
+    <dd class="accordion-navigation">
+      <a href="#project{{post.number}}"><strong>{{post.title}}</strong> <i class="fi-magnifying-glass"></i></a>
+      <div id="project{{post.number}}" class="content">
+
+        <article>
+          <header>
+            <h2>{{ post.title }}</h2>
+              {% if post.contact %}
+                <span class="project-contact"><i class="fi-torso"></i> {{post.contact}} </span>
+              {% endif%}
+          </header>
+
+          <div class="row">
+            <div class="panel large-3 medium-4 columns">{{ post.excerpt }}</div>
+            <div class="entry large-9 medium-8 columns">{{ post.content }}</div>
+          </div>
+
+        </article>
+
+      </div>
+    </dd>
+    {% endfor %}
+</div>

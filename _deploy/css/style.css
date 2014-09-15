@@ -1,0 +1,27 @@
+header {
+  margin-bottom: 25px;
+}
+
+.paginator header {
+  margin-bottom: 0px;
+}
+
+footer {
+  text-align: center;
+}
+
+.logo {
+  margin-bottom: 5px;
+}
+
+#paginator {
+  text-align: center;
+}
+
+.paginator {
+  margin-bottom: 15px;
+}
+
+.panel {
+  font-size: 0.85em;
+}

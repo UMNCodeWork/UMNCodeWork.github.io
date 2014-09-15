@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
+
+  <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon.ico" type="image/x-icon" />
+
+  <link rel="stylesheet" href="{{site.baseurl}}/css/normalize.css" />
+  <link rel="stylesheet" href="{{site.baseurl}}/css/style.css" />
+  <link rel="stylesheet" href="{{site.baseurl}}/css/foundation.min.css" />
+  <link rel="stylesheet" href="{{site.baseurl}}/css/foundation-icons.css" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+{% include header.html %}
+
+{% include nav.html %}
+<main>
+
+{{ content }}
+
+</main>
+
+{% include footer.html %}
+
+<script src="{{site.baseurl}}/js/vendor/jquery.js"></script>
+<script src="{{site.baseurl}}/js/foundation.min.js"></script>
+<script src="{{site.baseurl}}/js/foundation/foundation.topbar.js"></script>
+<script>$(document).foundation();</script>
+
+</body>
+</html>

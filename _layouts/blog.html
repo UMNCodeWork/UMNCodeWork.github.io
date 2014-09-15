@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="row">
+  <ul class="breadcrumbs">
+    <li><a href="{{site.baseurl}}/index.html">Home</a></li>
+    <li class="current">{{ page.title }}</li>
+  </ul>
+</div>
+
+<div class="row">
+<article>
+  <header>
+    <h2>{{ page.title }}</h2>
+      <span><i class="fi-clock"></i><time datetime="{{page.date|date:"%F"}}"> {{page.date|date:"%b %d, %Y"}}</time></span><br/>
+      <span class="category"><i class="fi-list-thumbnails"></i> {{ page.categories | category_links }}</span><br/>
+      <span class="author"><i class="fi-torso"></i> {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</span>
+  </header>
+
+  <div class="entry">{{ content }}</div>
+
+  <footer>
+    <!-- additional info -->
+    <i class="fi-pricetag-multiple"></i> {{ page.tags }}
+  </footer>
+
+</article>
+
+</div>

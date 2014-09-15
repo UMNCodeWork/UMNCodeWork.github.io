@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="row">
+  <ul class="breadcrumbs">
+    <li><a href="{{site.baseurl}}/index.html">Home</a></li>
+    <li><a href="{{site.baseurl}}/projects.html">Projects</a></li>
+    <li class="current">{{ page.title }}</li>
+  </ul>
+</div>
+
+<div class="row">
+  <article>
+    <header>
+      <h2>{{ page.title }}</h2>
+        <span class="category"><i class="fi-list-thumbnails"></i> {{ page.categories | category_links }}</span><br/>
+        {% if page.contact %}
+          <span class="project-contact"><i class="fi-torso"></i> {{page.contact}} </span>
+        {% endif%}
+    </header>
+
+    <div class="row">
+      <div class="panel large-3 medium-4 columns">{{ page.excerpt }}</div>
+      <div class="entry large-9 medium-8 columns">{{ page.content | markdownify }}</div>
+    </div>
+
+  </article>
+
+</div>

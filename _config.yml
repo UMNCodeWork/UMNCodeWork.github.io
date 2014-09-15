@@ -1,0 +1,17 @@
+# Name of your blog (this will show up at the top of your page and in the RSS feed)
+name: CodeWork
+
+# Short description (goes below the title; it will also be used in the RSS feed)
+description: A University of Minnesota Institute for Advanced Studies collaboritve.
+
+# Your name, as you want it to appear underneath each post and in the footer
+author: University of Minnesota Codework Collaborative
+
+# Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
+permalink: /:categories/:title
+
+# How many articles do you wish to appear on the front page:
+paginate: 3
+
+# Change destination folder where the site is generated upon compilation (when running 'jekyll serve')
+destination: _deploy
