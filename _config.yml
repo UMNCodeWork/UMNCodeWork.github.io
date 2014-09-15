@@ -12,6 +12,3 @@ permalink: /:categories/:title
 
 # How many articles do you wish to appear on the front page:
 paginate: 3
-
-# Change destination folder where the site is generated upon compilation (when running 'jekyll serve')
-destination: _deploy
