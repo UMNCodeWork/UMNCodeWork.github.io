@@ -22,6 +22,45 @@ footer {
   margin-bottom: 15px;
 }
 
+.panel.excerpt {
+  font-size: 0.85em;
+}
+
 .panel .excerpt {
   font-size: 0.85em;
+}
+
+/* Override Zurb Foundation global color styles for U of M colors */
+.top-bar {
+  background-color: #7a0019 !important;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background: none repeat scroll 0 0 #7a0019 !important;
+}
+
+.top-bar.expanded .title-area {
+  background: none repeat scroll 0 0 #7a0019 !important;
+}
+
+.icon-bar {
+  background: none repeat scroll 0 0 #7a0019 !important;
+}
+
+.icon-bar > * i {
+  color: #ffcc33 !important;
+}
+
+.panel.callout {
+  background: none repeat scroll 0 0 #f7e7b2 !important;
+}
+
+/* Override hideous Google Calendar styles */
+.mv-daynames-table {
+  background: none repeat scroll 0 0 #f7e7b2 !important;
+  color: #20c;
+}
+
+.view-cap, .view-container-border {
+    background-color: #f7e7b2 !important;
 }
