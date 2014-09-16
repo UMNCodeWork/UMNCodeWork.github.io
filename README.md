@@ -70,10 +70,12 @@ On the "Home" page. They are interspersed with other post types (events, project
 ```
 ---
 layout: blog
-title: Hello World!
+title: Blog title goes here
 category: blog
 
-excerpt: This is the post excerpt.
+author: < optional; will default to "University of Minnesota Codework Collaborative" >
+
+excerpt: Put a brief excerpt here to display on the Home page
 ---
 
 Put your content here.  You can write it in Markdown, and Jekyll will parse it into HTML markup.
@@ -92,6 +94,23 @@ On the main "Events" page under the "Upcoming events" header.  They are also agg
 posts in the "What's New?" section of the "Home" page.
 
 ######What template should I use?
+```
+---
+layout: video_event
+title: Event title goes here
+category: < upcoming_events | past_events > <--! Choose one of these!
+
+start_time: HH:MMam/pm
+end_time: HH:MMam/pm
+location: Room name, building name, etc. goes here
+event_link: //www.youtube.com/embed/TBIL2sdfoVc <--! Grab the "embed" link from YouTube
+
+excerpt: Put a brief excerpt here to display on the Home & Events pages
+---
+
+Put your content here.  You can write it in Markdown, and Jekyll will parse it into HTML markup.
+
+```
 
 
 ### Non-video events
@@ -103,6 +122,24 @@ posts in the "What's New?" section of the "Home" page.
 On the main "Events" page under the "Past events" header.  They are also aggregated with all of the other posts in the "What's New?" section of the "Home" page.
 
 ####What template should I use?
+```
+---
+layout: novideo_event
+title: This is an event without a video
+category: < upcoming_events | past_events > <--! Choose one of these!
+
+start_time: HH:MMam/pm
+end_time: HH:MMam/pm
+host: < optional; be sure to add something here if it is an *external* host to give them credit! >
+location: user-readable location data goes here
+map_address: Google Maps-readable address data goes here
+
+excerpt: Put a brief excerpt here to display on the Home & Events pages
+---
+
+Put your content here.  You can write it in Markdown, and Jekyll will parse it into HTML markup.
+
+```
 
 
 ### Projects
@@ -114,6 +151,22 @@ On the main "Events" page under the "Past events" header.  They are also aggrega
 On the main "Projects" page.  They are also aggregated with all of the other posts in the "What's New?" section of the "Home" page.
 
 ####What template should I use?
+```
+---
+layout: project
+title: Project title goes here
+category: projects
+
+number: 1 <!-- This needs to be a unique number, so make sure to count up from the last project on the list and increment by 1
+contact: Contact name and any other contact info goes here
+
+excerpt: Put a brief excerpt here to display on the Home page, and in a summary box next on the Projects page
+
+---
+
+Put your content here.  You can write it in Markdown, and Jekyll will parse it into HTML markup.
+
+```
 
 
 ## Deploy changes:
