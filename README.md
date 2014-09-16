@@ -36,51 +36,62 @@ files or you may change or break the overall site structure!
 
 ├── _drafts
 |   ├── blog
-|       └── YYYY-MM-DD-sample-blog-post.markdown
+|       └── YYYY-MM-DD-draft-blog-post.markdown
 |   ├── events
 |       ├── past
-|           └── YYYY-MM-DD-sample-past-event.markdown
+|           └── YYYY-MM-DD-draft-past-event.markdown
 |       └── upcoming
-|           └── YYYY-MM-DD-sample-upcoming-event.markdown
+|           └── YYYY-MM-DD-draft-upcoming-event.markdown
 |   └── projects
-|       └── YYYY-MM-DD-sample-project.markdown
+|       └── YYYY-MM-DD-draft-project.markdown
 ├── _posts
 |   ├── blog
-|       └── YYYY-MM-DD-sample-blog-post.markdown
+|       └── YYYY-MM-DD-blog-post-title.markdown
 |   ├── events
 |       ├── past
-|           └── YYYY-MM-DD-sample-past-event.markdown
+|           └── YYYY-MM-DD-past-event-name.markdown
 |       └── upcoming
-|           └── YYYY-MM-DD-sample-upcoming-event.markdown
+|           └── YYYY-MM-DD-upcoming-event-name.markdown
 |   └── projects
-|       └── YYYY-MM-DD-sample-project.markdown
+|       └── YYYY-MM-DD-project-name.markdown
 ```
 
 ## Templates:
 
 ### Blog posts
-####Where do I save them?
+######Where do I save them?
 - _drafts/blog for drafts
 - _posts/blog for published
 
-####Where do they show up on the live site?
+######Where do they show up on the live site?
 On the "Home" page. They are interspersed with other post types (events, projects), all organized by post date.
 
-####What template should I use?
+######What template should I use?
+```
+---
+layout: blog
+title: Hello World!
+category: blog
 
+excerpt: This is the post excerpt.
+---
+
+Put your content here.  You can write it in Markdown, and Jekyll will parse it into HTML markup.
+
+```
 
 
 
 ### Video events
-####Where do I save them?
+######Where do I save them?
 - _drafts/events/upcoming for drafts of upcoming video events
 - _posts/events/upcoming to publish upcoming video events (let's try to keep only 3-4 events featured in the "upcoming" folder at a time; save them in drafts until they're ready to publicize)
 
-####Where do they show up on the live site?
+######Where do they show up on the live site?
 On the main "Events" page under the "Upcoming events" header.  They are also aggregated with all of the other
 posts in the "What's New?" section of the "Home" page.
 
-##What template should I use?
+######What template should I use?
 
 
 ### Non-video events
