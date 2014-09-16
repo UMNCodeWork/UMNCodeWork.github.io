@@ -176,8 +176,8 @@ You can write drafts, make edits, and add posts to the _drafts and _posts direct
 
 ###To deploy changes:
 
-1. When done editing, open your terminal and 'cd' into the UMNCodeWork/UMNCodeWork.github.io directory
-2. `git status` should indicate that you have untracked changes in the directory
+1. When done editing, open your terminal and `cd` into the UMNCodeWork/UMNCodeWork.github.io directory
+2. `git status` should indicate that you have unstaged changes in the directory
 3. `git add --all`
 4. `git commit -m "Your update message goes here"`
   *Your update message should just be a brief statement of what you added or changed. For example:
