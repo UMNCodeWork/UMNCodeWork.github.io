@@ -6,11 +6,11 @@
 
 ## Site structure:
 This is the basic site structure.  When editing the site, *only* add files to the _drafts folder
-(for draft contnet) and _posts folder (for published content).  *Do not* touch any of the other
+(for draft content) and _posts folder (for published content).  *Do not* touch any of the other
 files or you may change or break the overall site structure!
 
 ```
-.
+UMNCodeWork.github.io
 ├── _config.yml
 ├── _site
 ├── _includes
@@ -56,6 +56,9 @@ files or you may change or break the overall site structure!
 |       └── YYYY-MM-DD-project-name.markdown
 ```
 
+All files must be titled with the year/month/day and post name, and end with the filetype '.markdown' to parse correctly: `YYYY-MM-DD-post-name.markdown`.  (Note: Draft events don't need a year/month/day until they're published.)  *Don't forget to structure your file names correctly when adding content!*
+
+
 ## Templates:
 
 ### Blog posts
@@ -64,7 +67,7 @@ files or you may change or break the overall site structure!
 - _posts/blog for published
 
 ######Where do they show up on the live site?
-On the "Home" page. They are interspersed with other post types (events, projects), all organized by post date.
+On the "Home" page. They are interspersed with other post types (events & projects), and all posts are then organized by the post date indicated in their file name.
 
 ######What template should I use?
 ```
@@ -86,12 +89,8 @@ Put your content here.  You can write it in Markdown, and Jekyll will parse it i
 
 ### Video events
 ######Where do I save them?
-- _drafts/events/upcoming for drafts of upcoming video events
-- _posts/events/upcoming to publish upcoming video events (let's try to keep only 3-4 events featured in the "upcoming" folder at a time; save them in drafts until they're ready to publicize)
-
-######Where do they show up on the live site?
-On the main "Events" page under the "Upcoming events" header.  They are also aggregated with all of the other
-posts in the "What's New?" section of the "Home" page.
+- _drafts/events/upcoming for drafts of upcoming events
+- _posts/events/upcoming to publish upcoming events (let's try to keep only 3-4 events featured in the "upcoming" folder at a time; save them in drafts until they're ready to publicize)
 
 ######What template should I use?
 ```
@@ -115,11 +114,8 @@ Put your content here.  You can write it in Markdown, and Jekyll will parse it i
 
 ### Non-video events
 ######Where do I save them?
-- _drafts/events/upcoming for drafts of upcoming video events
-- _posts/events/upcoming to publish upcoming video events (again, let's try to keep only 3-4 events featured in the "upcoming" folder at a time; save them in drafts until they're ready to publicize)
-
-######Where do they show up on the live site?
-On the main "Events" page under the "Past events" header.  They are also aggregated with all of the other posts in the "What's New?" section of the "Home" page.
+- _drafts/events/upcoming for drafts of upcoming events
+- _posts/events/upcoming to publish upcoming events (again, let's try to keep only 3-4 events featured in the "upcoming" folder at a time; save them in drafts until they're ready to publicize)
 
 ######What template should I use?
 ```
@@ -146,9 +142,6 @@ Put your content here.  You can write it in Markdown, and Jekyll will parse it i
 ######Where do I save them?
 - _drafts/projects for draft project descriptions
 - _posts/projects for published project descriptions
-
-######Where do they show up on the live site?
-On the main "Projects" page.  They are also aggregated with all of the other posts in the "What's New?" section of the "Home" page.
 
 ######What template should I use?
 ```
