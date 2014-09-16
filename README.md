@@ -114,14 +114,14 @@ Put your content here.  You can write it in Markdown, and Jekyll will parse it i
 
 
 ### Non-video events
-####Where do I save them?
+######Where do I save them?
 - _drafts/events/upcoming for drafts of upcoming video events
 - _posts/events/upcoming to publish upcoming video events (again, let's try to keep only 3-4 events featured in the "upcoming" folder at a time; save them in drafts until they're ready to publicize)
 
-####Where do they show up on the live site?
+######Where do they show up on the live site?
 On the main "Events" page under the "Past events" header.  They are also aggregated with all of the other posts in the "What's New?" section of the "Home" page.
 
-####What template should I use?
+######What template should I use?
 ```
 ---
 layout: novideo_event
@@ -143,14 +143,14 @@ Put your content here.  You can write it in Markdown, and Jekyll will parse it i
 
 
 ### Projects
-####Where do I save them?
+######Where do I save them?
 - _drafts/projects for draft project descriptions
 - _posts/projects for published project descriptions
 
-####Where do they show up on the live site?
+######Where do they show up on the live site?
 On the main "Projects" page.  They are also aggregated with all of the other posts in the "What's New?" section of the "Home" page.
 
-####What template should I use?
+######What template should I use?
 ```
 ---
 layout: project
