@@ -9,12 +9,12 @@ host: Girls in Tech Minneapolis/St. Paul
 location: University of Minnesota; Room 220, Science Teaching & Student Services
 map_address: 222 Pleasant Street Southeast, Minneapolis, MN 55455
 
-excerpt: Girls in Tech (GitMSP) will be screening Miss Representation, a documentary about how mainstream media contributes to the under-representation of women in positions of power and influence in America (including coding!)
+excerpt: Girls in Tech (GitMSP) will be screening Miss Representation. This documentary examines how mainstream media contributes to the under-representation of women in positions of power and influence in America--including coding!
 ---
 
 Join us for a special screening of the documentary, Miss Representation, sponsored by Girls in Tech Minneapolis/St. Paul, Glitch, and MinneWebCon. All genders and people from all backgrounds welcome to attend! Complimentary popcorn, snacks, and sodas provided. We look forward to watching the documentary with all of you!
 
-[Registration and more information] (http://www.eventbrite.com/e/miss-representation-screening-discussion-tickets-12996590151)
+[Registration and more information:] (http://www.eventbrite.com/e/miss-representation-screening-discussion-tickets-12996590151)
 
 ### Parking Options
 

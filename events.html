@@ -18,14 +18,26 @@ title: Events
 
   <div class="small-12 large-6 columns">
     <h1>Upcoming events:</h1>
-    <ul class="large-block-grid-2 medium-block-grid-2 small-block-grid-1">
+    <ul class="large-block-grid-2 medium-block-grid-2 small-block-grid-1" data-equalizer>
       {% for post in site.categories['upcoming_events'] %}
-      <li>
-        <h2><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h2>
-        <strong><span class="eventtime"><i class="fi-clock"></i><time datetime="{{post.date|date:"%F"}}"> {{post.date|date:"%b %d, %Y"}}; {{post.start_time}} - {{post.end_time}}</time></span></strong><br/>
-        <strong><span class="location"><i class="fi-marker"></i> {{ post.location }}</span></strong><br />
-        <div class="excerpt">{{ post.excerpt }}</div>
-      </li>
+
+        {% if post.host %}
+          <li class="panel" data-equalizer-watch>
+            <h2><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h2>
+            <strong><span class="event_time"><i class="fi-clock"></i><time datetime="{{post.date|date:"%F"}}"> {{post.date|date:"%b %d, %Y"}}; {{post.start_time}} - {{post.end_time}}</time></span></strong><br/>
+            <strong><span class="location"><i class="fi-marker"></i> {{ post.location }}</span></strong><br />
+            <strong><span class="event_host"><i class="fi-torso"></i> {{ post.host }}</span></strong><br />
+            <div class="excerpt">{{ post.excerpt }}</div>
+          </li>
+        {% else %}
+          <li class="panel callout" data-equalizer-watch>
+            <h2><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h2>
+            <strong><span class="event_time"><i class="fi-clock"></i><time datetime="{{post.date|date:"%F"}}"> {{post.date|date:"%b %d, %Y"}}; {{post.start_time}} - {{post.end_time}}</time></span></strong><br/>
+            <strong><span class="location"><i class="fi-marker"></i> {{ post.location }}</span></strong><br />
+            <div class="excerpt">{{ post.excerpt }}</div>
+          </li>
+        {% endif %}
+
       {% endfor %}
     </ul>
   </div>
@@ -40,15 +52,26 @@ title: Events
   <h1>Past events:</h1>
 </div>
 
-<div class="row">
-  <ul class="large-block-grid-3 medium-block-grid-2 small-block-grid-1">
+<div class="row" data-equalizer>
+  <ul class="large-block-grid-3 medium-block-grid-2 small-block-grid-1" data-equalizer>
 
     {% for post in site.categories['past_events'] %}
-    <li>
-      <h3><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h3>
-      <span class="eventtime"><i class="fi-clock"></i><time datetime="{{post.date|date:"%F"}}"> {{post.date|date:"%b %d, %Y"}}</time></span><br/>
-      <div class="excerpt">{{ post.excerpt }}</div>
-    </li>
+
+      {% if post.host %}
+        <li class="panel" data-equalizer-watch>
+          <h2><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h2>
+          <strong><span class="event_time"><i class="fi-clock"></i><time datetime="{{post.date|date:"%F"}}"> {{post.date|date:"%b %d, %Y"}}</time></span></strong><br/>
+          <strong><span class="event_host"><i class="fi-torso"></i> {{ post.host }}</span></strong><br />
+          <div class="excerpt">{{ post.excerpt }}</div>
+        </li>
+      {% else %}
+        <li class="panel callout" data-equalizer-watch>
+          <h2><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h2>
+          <strong><span class="event_time"><i class="fi-clock"></i><time datetime="{{post.date|date:"%F"}}"> {{post.date|date:"%b %d, %Y"}}</time></span></strong><br/>
+          <div class="excerpt">{{ post.excerpt }}</div>
+        </li>
+      {% endif %}
+
     {% endfor %}
   </ul>
 </div>
