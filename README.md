@@ -166,7 +166,7 @@ Put your content here.  You can write it in Markdown, and Jekyll will parse it i
 ```
 
 
-## Edit the site:
+## Work on the site:
 Clone the UMNCodeWork.github.io repository to your computer.  You should only need to clone the repository once to your local computer; after that, be sure to keep the code stored in the same directory you originally downloaded it to, as this directory will remain linked to the proper GitHub origin.  
 
 ###To preview edits:
