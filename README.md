@@ -56,11 +56,11 @@ UMNCodeWork.github.io
 |       └── YYYY-MM-DD-project-name.markdown
 ```
 
-All post files must be titled with the year/month/day and post name, separated by dashes (-).  They must also end with the filetype '.markdown' to parse correctly.  For example:
+**Don't forget to structure your file names correctly when adding content!** All post files must be titled with the year/month/day and post name, separated by dashes (-).  They must also end with the filetype '.markdown' to parse correctly.  For example:
 ```
 YYYY-MM-DD-post-name.markdown
 ```
-(Note: Draft events don't need a year/month/day until they're published.)  *Don't forget to structure your file names correctly when adding content!*
+(Note: Draft events don't need a year/month/day until they're published.)
 
 
 ## Templates:
