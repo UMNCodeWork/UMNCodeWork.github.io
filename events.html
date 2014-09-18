@@ -22,7 +22,7 @@ title: Events
       {% for post in site.categories['upcoming_events'] %}
 
         {% if post.host %}
-          <li class="panel callout" data-equalizer-watch>
+          <li class="panel" data-equalizer-watch>
             <h2><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h2>
             <strong><span class="event_time"><i class="fi-clock"></i><time datetime="{{post.date|date:"%F"}}"> {{post.date|date:"%b %d, %Y"}}; {{post.start_time}} - {{post.end_time}}</time></span></strong><br/>
             <strong><span class="location"><i class="fi-marker"></i> {{ post.location }}</span></strong><br />
