@@ -3,13 +3,13 @@ layout: novideo_event
 title: Open Twin Cities October Book Club
 category: upcoming_events
 
-start_time: 6:00pm
-end_time: 8:00pm
+start_time: 6pm
+end_time: 8pm
 host: Open Twin Cities
 location: Hennepin County Libraries - St. Anthony Branch
-map_address: 2971 Pentagon Dr, St. Anthony, MN
+map_address: 2971 Pentagon Dr, St. Anthony, MN 55418
 
-excerpt: Join Open Twin Cities for a book club discussion on Lessig's 'Code: Version 2'
+excerpt: Join Open Twin Cities for a book club discussion on Lessig's Code: Version 2
 ---
 
 For more information, and to download a free copy of the readings, see:
