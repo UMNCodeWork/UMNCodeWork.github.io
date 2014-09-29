@@ -1,7 +1,7 @@
 ---
 layout: novideo_event
 title: Miss Representation Screening + Discussion
-category: upcoming_events
+category: past_events
 
 start_time: 4pm
 end_time: 5pm
@@ -14,7 +14,7 @@ excerpt: Girls in Tech (GitMSP) will be screening Miss Representation. This docu
 
 Join us for a special screening of the documentary, Miss Representation, sponsored by Girls in Tech Minneapolis/St. Paul, Glitch, and MinneWebCon. All genders and people from all backgrounds welcome to attend! Complimentary popcorn, snacks, and sodas provided. We look forward to watching the documentary with all of you!
 
-[Registration and more information:] (http://www.eventbrite.com/e/miss-representation-screening-discussion-tickets-12996590151)
+Registration and more information: http://www.eventbrite.com/e/miss-representation-screening-discussion-tickets-12996590151
 
 ### Parking Options
 
