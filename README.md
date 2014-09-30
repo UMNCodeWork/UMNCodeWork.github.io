@@ -36,14 +36,11 @@ UMNCodeWork.github.io
 
 ├── _drafts
 |   ├── blog
-|       └── YYYY-MM-DD-draft-blog-post.markdown
+|       └── draft-blog-post.markdown
 |   ├── events
-|       ├── past
-|           └── YYYY-MM-DD-draft-past-event.markdown
-|       └── upcoming
-|           └── YYYY-MM-DD-draft-upcoming-event.markdown
+|       └── draft-event-post.markdown
 |   └── projects
-|       └── YYYY-MM-DD-draft-project.markdown
+|       └── draft-project.markdown
 ├── _posts
 |   ├── blog
 |       └── YYYY-MM-DD-blog-post-title.markdown
@@ -71,7 +68,7 @@ YYYY-MM-DD-post-name.markdown
 - _posts/blog for published
 
 ######Where do they show up on the live site?
-On the "Home" page. They are interspersed with other post types (events & projects), and all posts are then organized by the post date indicated in their file name.
+On the "Home" page. They are interspersed with all other post types (events & projects), and all posts are then organized by the post date indicated in their file name.
 
 ######What template should I use?
 ```
@@ -93,8 +90,9 @@ Put your content here.  You can write it in Markdown, and Jekyll will parse it i
 
 ### Video events
 ######Where do I save them?
-- _drafts/events/upcoming for drafts of upcoming events
-- _posts/events/upcoming to publish upcoming events (let's try to keep only 3-4 events featured in the "upcoming" folder at a time; save them in drafts until they're ready to publicize)
+- _drafts/events for drafts of events
+- _posts/events/upcoming for upcoming events (let's try to keep only 3-4 events featured in the "upcoming" folder at a time; save them in drafts until they're ready to publicize)
+- _posts/events/past for past events
 
 ######What template should I use?
 ```
@@ -118,8 +116,9 @@ Put your content here.  You can write it in Markdown, and Jekyll will parse it i
 
 ### Non-video events
 ######Where do I save them?
-- _drafts/events/upcoming for drafts of upcoming events
-- _posts/events/upcoming to publish upcoming events (again, let's try to keep only 3-4 events featured in the "upcoming" folder at a time; save them in drafts until they're ready to publicize)
+- _drafts/events for drafts of events
+- _posts/events/upcoming for upcoming events (again, let's try to keep only 3-4 events featured in the "upcoming" folder at a time; save them in drafts until they're ready to publicize)
+- _posts/events/past for past events
 
 ######What template should I use?
 ```
@@ -170,9 +169,9 @@ Put your content here.  You can write it in Markdown, and Jekyll will parse it i
 Clone the UMNCodeWork.github.io repository to your computer.  You should only need to clone the repository once to your local computer; after that, be sure to keep the code stored in the same directory you originally downloaded it to, as this directory will remain linked to the proper GitHub origin.  
 
 ###To preview edits:
-You can write drafts, make edits, and add posts to the _drafts and _posts directories on your local computer.  To preview your changes, navigate to the UMNCodeWork.github.io directory in the command line on your local computer.  From within that directory, execute the `jekyll server` command.  This will compile the changes and spit out the "full" HTML into the _site directory.  You can preview the changes in a browser at http://localhost:4040.
+You can write drafts, make edits, and add posts to the _drafts and _posts directories on your local computer.  (Avoid Windows, if possible, since it can mess with file formatting in evil, subtle ways that make Jekyll angry.)  To preview your changes, navigate to the UMNCodeWork.github.io directory in the command line on your local computer.  From within that directory, execute the `jekyll server` command (or `jekyll server --draft` to preview with draft content).  This will compile the changes and spit out the "full" HTML into the _site directory.  You can preview the changes in a browser at http://localhost:4000.
 
-(Note: It may be tempting to dig in and start editing the _site directory--**DON'T**!  This is an unstable directory that is constantly being written and over-written "on the fly" by Jekyll.  Make all your changes within the _posts and _drafts directories, and leave Jekyll alone to do its thing with _site.)
+(*Note:* It may be tempting to dig in and start editing the _site directory--**DON'T**!  This is an unstable directory that is constantly being written and over-written "on the fly" by Jekyll.  Make all your changes within the _posts and _drafts directories, and leave Jekyll alone to do its thing with _site.)
 
 ###To deploy changes:
 
