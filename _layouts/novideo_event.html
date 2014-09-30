@@ -11,25 +11,26 @@ layout: default
 </div>
 
 
-<div class="row">
-
 <article>
 
-  <header>
-    <h2>{{ page.title }}</h2>
-      <strong><span class="eventtime"><i class="fi-clock"></i><time datetime="{{page.date|date:"%F"}}"> {{page.date|date:"%b %d, %Y"}}; {{page.start_time}} - {{page.end_time}}</time></span></strong><br />
-      <strong><span class="location"><i class="fi-marker"></i> {{ page.location }}</span></strong><br />
-      <span class="category"><i class="fi-list-thumbnails"></i> {{ page.categories | category_links }}</span><br/>
-      <span class="author"><i class="fi-torso"></i> {% if page.host %}{{page.host}}{% else %}{{site.author}}{% endif%}</span>
-  </header>
-
-  <div class="large-4 small-12 columns">
-    <iframe width="100%" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDh2tlN8wD4nZ2Q-woIAUTuVlf0oZ6Dnxk&q={{page.map_address}}"></iframe>
+  <div class="row">
+    <header>
+      <h2>{{ page.title }}</h2>
+        <strong><span class="eventtime"><i class="fi-clock"></i><time datetime="{{page.date|date:"%F"}}"> {{page.date|date:"%b %d, %Y"}}; {{page.start_time}} - {{page.end_time}}</time></span></strong><br />
+        <strong><span class="location"><i class="fi-marker"></i> {{ page.location }}</span></strong><br />
+        <span class="category"><i class="fi-list-thumbnails"></i> {{ page.categories | category_links }}</span><br/>
+        <span class="author"><i class="fi-torso"></i> {% if page.host %}{{page.host}}{% else %}{{site.author}}{% endif%}</span>
+    </header>
   </div>
 
-  <div class="content large-8 small-12 columns">{{ content | markdownify }}</div>
+  <div class="row panel excerpt">{{ page.excerpt }}</div>
 
+  <div class="row">
+    <div class="large-4 small-12 columns">
+      <iframe width="100%" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDh2tlN8wD4nZ2Q-woIAUTuVlf0oZ6Dnxk&q={{page.map_address}}"></iframe>
+    </div>
+
+    <div class="content large-8 small-12 columns">{{ content | markdownify }}</div>
+  </div>
 
 </article>
-
-</div>
