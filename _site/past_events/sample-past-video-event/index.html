@@ -11,6 +11,17 @@
   <link rel="stylesheet" href="/css/foundation.min.css" />
   <link rel="stylesheet" href="/css/foundation-icons.css" />
 
+  <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-55216294-1', 'auto');
+    ga('require', 'displayfeatures');
+	  ga('send', 'pageview');
+  </script>
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
@@ -98,12 +109,24 @@
 
 <p><em>“2014-MM-DD-title-of-event.markdown”</em></p>
 
-<p>This event features a Hangout/YouTube video.  Add the link to your video in the event_link listed in the frontmatter above. Be sure to grab the YouTube
-embed link <em>without</em> the “http”/”https”.  Just plain backslashes “//” will suffice!  This event also automatically includes an embedded IRC Chat pointing to the
-#UMNCodework channel for use during the live broadcast.</p>
+<p>This event features a Hangout/YouTube video.  Add the link to your video in the event_link listed in the frontmatter above. Be sure to grab the YouTube embed link <em>without</em> the “http”/”https”.  Just plain backslashes “//” will suffice!  This event also automatically includes an embedded IRC Chat pointing to the #UMNCodework channel for use during the live broadcast.</p>
+
+<h3 id="creating-upcoming-events">Creating upcoming events</h3>
+<p>When you create an event, be sure to include the “upcoming_events” category in the frontmatter.  This will make sure the event is displayed under “Upcoming events” on the events main page.  Let’s try to keep only 1-2 events featured under “Upcoming events” at any given time.  To publish an event to the “Upcoming events” section, do the following:</p>
+
+<ol>
+  <li>
+    <p>Make sure the category in the frontmatter is listed as “upcoming_events”</p>
+  </li>
+  <li>
+    <p>Add the file to the “_posts/events/upcoming” folder </p>
+  </li>
+</ol>
+
+<p>For the rest of our events, feel free to add them to the Google Calendar and create drafts of the event pages to “keep in the queue” before we make them live on the main events page.  Store these draft events in “_drafts/events/upcoming”.</p>
 
 <h3 id="managing-past-events">Managing past events</h3>
-<p>This event occurred in the past.  When an event is completed, do the following:</p>
+<p>When an event is completed, do the following:</p>
 
 <ol>
   <li>

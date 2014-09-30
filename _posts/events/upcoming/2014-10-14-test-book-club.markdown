@@ -9,7 +9,7 @@ host: Open Twin Cities
 location: Hennepin County Libraries - St. Anthony Branch
 map_address: 2971 Pentagon Dr, St. Anthony, MN
 
-excerpt: Join Open Twin Cities for a book club discussion of Lessig's 'Code: Version 2'
+excerpt: Join Open Twin Cities for a book club discussion of Lessig's Code (Version 2)
 
 ---
 
