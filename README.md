@@ -166,7 +166,9 @@ Put your content here.  You can write it in Markdown, and Jekyll will parse it i
 
 
 ## Work on the site:
-Clone the UMNCodeWork.github.io repository to your computer.  You should only need to clone the repository once to your local computer; after that, be sure to keep the code stored in the same directory you originally downloaded it to, as this directory will remain linked to the proper GitHub origin.  
+Clone the UMNCodeWork.github.io repository to your computer.  You should only need to clone the repository once to your local computer; after that, be sure to keep the code stored in the same directory you originally downloaded it to, as this directory will remain linked to the proper GitHub origin.
+
+You'll also want to install the jekyll gem in order to do some tweaking and previewing to the site on your local computer.  Make sure you have a relatively recent version of Ruby installed (I've been using 2.1.2), and then execute `sudo gem install jekyll`.  Then you're set to work! 
 
 ###To preview edits:
 You can write drafts, make edits, and add posts to the _drafts and _posts directories on your local computer.  (Avoid Windows, if possible, since it can mess with file formatting in evil, subtle ways that make Jekyll angry.)  To preview your changes, navigate to the UMNCodeWork.github.io directory in the command line on your local computer.  From within that directory, execute the `jekyll server` command (or `jekyll server --draft` to preview with draft content).  This will compile the changes and spit out the "full" HTML into the _site directory.  You can preview the changes in a browser at http://localhost:4000.
