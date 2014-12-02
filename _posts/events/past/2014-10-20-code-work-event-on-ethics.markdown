@@ -1,7 +1,7 @@
 ---
 layout: video_event
 title: Ethics of Code-Work - Parsing Ethical Responsibilities
-category: upcoming_events
+category: past_events
 
 start_time: 1:00pm
 end_time: 3:30pm
