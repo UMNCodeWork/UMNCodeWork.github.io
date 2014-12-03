@@ -180,9 +180,7 @@ footer {
 }*/
 
 .blog-photo {
-  border-radius: 5%;
   box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.07);
-  transition: all 0.3s ease-out 0s;
 }
 
 .figure-inline {
