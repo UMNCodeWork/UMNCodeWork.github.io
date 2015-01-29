@@ -35,4 +35,4 @@ Got ideas of what to read for future book club meetings? Add them to <https://wo
 
 
 Check out the event details and RSVP here:
-http://www.meetup.com/OpenTwinCities/events/220153467/
+<http://www.meetup.com/OpenTwinCities/events/220153467/>
