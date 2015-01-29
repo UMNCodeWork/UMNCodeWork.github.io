@@ -1,0 +1,45 @@
+---
+layout: default
+title: Blog
+---
+
+<div class="row">
+  <ul class="breadcrumbs">
+    <li><a href="{{site.baseurl}}/index.html">Home</a></li>
+    <li class="current">Blog</li>
+  </ul>
+</div>
+
+<div class="row">
+
+  <div class="small-12 large-6 columns">
+    <h1>Blogs</h1>
+    <ul class="large-block-grid-1 medium-block-grid-1 small-block-grid-1" data-equalizer>
+      {% for post in site.categories['blog'] %}
+
+        {% if post.host %}
+          <li class="panel" data-equalizer-watch>
+            <h2><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h2>
+            <strong><span class="event_time"><i class="fi-clock"></i><time datetime="{{post.date|date:"%F"}}"> {{post.date|date:"%b %d, %Y"}}; {{post.start_time}} - {{post.end_time}}</time></span></strong><br/>
+            <strong><span class="location"><i class="fi-marker"></i> {{ post.location }}</span></strong><br />
+            <strong><span class="event_host"><i class="fi-torso"></i> {{ post.host }}</span></strong><br />
+            <div class="excerpt">{{ post.excerpt }}</div>
+          </li>
+        {% else %}
+          <li class="panel callout" data-equalizer-watch>
+            <h2><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h2>
+            <strong><span class="event_time"><i class="fi-clock"></i><time datetime="{{post.date|date:"%F"}}"> {{post.date|date:"%b %d, %Y"}}; {{post.start_time}} - {{post.end_time}}</time></span></strong><br/>
+            <strong><span class="location"><i class="fi-marker"></i> {{ post.location }}</span></strong><br />
+            <div class="excerpt">{{ post.excerpt }}</div>
+          </li>
+        {% endif %}
+
+      {% endfor %}
+    </ul>
+  </div>
+
+</div>
+
+<div class="row">
+  <hr>
+</div>
