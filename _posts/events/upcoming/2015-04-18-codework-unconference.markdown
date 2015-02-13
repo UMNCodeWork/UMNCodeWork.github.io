@@ -3,8 +3,8 @@ layout: novideo_event
 title: CodeWork Unconference
 category: upcoming_events
 
-start_time: 6pm
-end_time: 8pm
+start_time: 10am
+end_time: 4pm
 location: Northrop Auditorium
 map_address: 84 Church Street SE, Minneapolis, MN 55455
 
