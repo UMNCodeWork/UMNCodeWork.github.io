@@ -5,8 +5,8 @@ category: upcoming_events
 
 start_time: 6pm
 end_time: 8pm
-location: Wilson Library, Room 201A
-map_address: 309 19th Ave S, Minneapolis, MN
+location: Northrop Auditorium
+map_address: 84 Church Street SE, Minneapolis, MN 55455
 
 excerpt: Join CodeWork for an Unconference exploring computer code and the various ways it influences our lives
 
