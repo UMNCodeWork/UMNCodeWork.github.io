@@ -8,7 +8,7 @@ end_time: 4pm
 location: Northrop Auditorium
 map_address: 84 Church Street SE, Minneapolis, MN 55455
 
-excerpt: Join CodeWork for an Unconference exploring computer code and the various ways it influences our lives
+excerpt: Join CodeWork for an unconference exploring computer code and the various ways it influences our lives
 
 ---
 
@@ -47,4 +47,4 @@ None of those work for you?  Come and start your own conversations!  We’ll hav
 * Get feedback on a current project
 * Gather new perspectives on computer code and its impact on our day-to-day lives
 
-Want more information?  Sign up for our [Google Group](https://groups.google.com/forum/#!forum/umn-code-work) and we'll send you updates and RSVP information as it becomes available!
+Interested in participating?  Sign up here, and spread the word: [https://www.eventbrite.com/e/codework-unconference-tickets-16049357059](https://www.eventbrite.com/e/codework-unconference-tickets-16049357059)

@@ -1,7 +1,7 @@
 ---
 layout: novideo_event
 title: Gender, Identity, and Video Games
-category: upcoming_events
+category: past_events
 
 start_time: 3pm
 end_time: 5.30pm
