@@ -44,7 +44,7 @@ footer {
 }
 
 .content p:first-child:first-line{
-  line-height: 1em;
+  line-height: 1.0em;
 }
 
 /* =======================
