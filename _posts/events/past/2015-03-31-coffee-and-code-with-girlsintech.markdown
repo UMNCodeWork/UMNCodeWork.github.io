@@ -1,7 +1,7 @@
 ---
 layout: novideo_event
 title: Coffee and Code with CodeWork & GiTMSP
-category: upcoming_events
+category: past_events
 
 start_time: 6pm
 end_time: 8pm
