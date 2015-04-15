@@ -8,6 +8,7 @@ end_time: 1.30pm
 location: University of Minnesota, Room 402, Walter Library
 map_address: 117 Pleasant St SE, Minneapolis, MN 55404
 event_link: //www.youtube.com/embed/--F8DqIoXac
+caption_link: http://www.streamtext.net/player?event=UMN&chat=false
 
 excerpt: Join us in a multi-disciplinary conversation about how the technical and cultural shape programming practices. The CodeWork collaborative is excited to lead a discussion between Professor of Informatics and Computer Science <a href="http://tagide.com/about.html" target="_blank">Cristina Videira Lopes</a> (University of California-Irvine), Assistant Professor of Writing and Rhetoric <a href="http://slimcoincidence.com/prof/" target="_blank">Krista Kennedy</a> (Syracuse University), and Assistant Professor of English and Literacy Studies scholar <a href="http://www.annettevee.com/" target="_blank">Annette Vee</a> (University of Pittsburgh). We will discuss the technical and cultural constraints and affordances that influence the ways programmers write their code, and how source code complicates notions of writing and authorship.
 
