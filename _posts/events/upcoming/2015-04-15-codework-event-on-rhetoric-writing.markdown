@@ -1,13 +1,19 @@
 ---
 layout: video_event
+<<<<<<< HEAD
 title: The rhetorics of code-work and programming as writing
 category: past_events
+=======
+title: The Rhetorics of Code-Work and Programming as Writing
+category: upcoming_events
+>>>>>>> 5b32ffd4dd6bcd7f946168a772267f40c85a76bd
 
-start_time: 12:00pm
-end_time: 1:30pm
+start_time: 12pm
+end_time: 1.30pm
 location: University of Minnesota, Room 402, Walter Library
 map_address: 117 Pleasant St SE, Minneapolis, MN 55404
-event_link: 
+event_link: //www.youtube.com/embed/--F8DqIoXac
+caption_link: http://www.streamtext.net/player?event=UMN&chat=false
 
 excerpt: Join us in a multi-disciplinary conversation about how the technical and cultural shape programming practices. The CodeWork collaborative is excited to lead a discussion between Professor of Informatics and Computer Science <a href="http://tagide.com/about.html" target="_blank">Cristina Videira Lopes</a> (University of California-Irvine), Assistant Professor of Writing and Rhetoric <a href="http://slimcoincidence.com/prof/" target="_blank">Krista Kennedy</a> (Syracuse University), and Assistant Professor of English and Literacy Studies scholar <a href="http://www.annettevee.com/" target="_blank">Annette Vee</a> (University of Pittsburgh). We will discuss the technical and cultural constraints and affordances that influence the ways programmers write their code, and how source code complicates notions of writing and authorship.
 
@@ -36,7 +42,7 @@ excerpt: Join us in a multi-disciplinary conversation about how the technical an
         <a href="http://tagide.com/about.html" target="_blank">Cristina Videira Lopes</a> | Informatics &amp; Computer Science
       </h4>
       <p class="speakers-bio">
-        Dr. Lopes is a Professor of Informatics at the University of California-Irvine. She previously held a research scientist position at Xerox Palo Alto Research Center, where she founded the group that developed the Aspect-oriented programming language. She recently published a book, <cite><a href="http://www.amazon.com/Exercises-Programming-Style-Cristina-Videira/dp/1482227371/" target="_blank">Exercises in Programming Style</a></cite>, in which she demonstrates the relationship between particular constraints and programming style by writing a term-frequency algorithm in Python in 33 different ways. Her experience developing programming languages, teaching computational principles, and how such principles are shaped by situated constraints and language use will provide invaluable cross-disciplinary material for our discussion. 
+        Dr. Lopes is a Professor of Informatics at the University of California-Irvine. She previously held a research scientist position at Xerox Palo Alto Research Center, where she founded the group that developed the Aspect-oriented programming language. She recently published a book, <cite><a href="http://www.amazon.com/Exercises-Programming-Style-Cristina-Videira/dp/1482227371/" target="_blank">Exercises in Programming Style</a></cite>, in which she demonstrates the relationship between particular constraints and programming style by writing a term-frequency algorithm in Python in 33 different ways. Her experience developing programming languages, teaching computational principles, and how such principles are shaped by situated constraints and language use will provide invaluable cross-disciplinary material for our discussion.
       </p>
     </li>
     <li class="speakers-item">
