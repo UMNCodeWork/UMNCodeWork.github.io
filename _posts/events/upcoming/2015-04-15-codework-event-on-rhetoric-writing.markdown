@@ -1,7 +1,7 @@
 ---
 layout: video_event
 title: The rhetorics of code-work and programming as writing
-category: upcoming_events
+category: past_events
 
 start_time: 12:00pm
 end_time: 1:30pm

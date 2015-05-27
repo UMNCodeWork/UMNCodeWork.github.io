@@ -1,7 +1,7 @@
 ---
 layout: novideo_event
 title: CodeWork Unconference
-category: upcoming_events
+category: past_events
 
 start_time: 10am
 end_time: 4pm
