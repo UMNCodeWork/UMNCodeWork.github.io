@@ -7,7 +7,9 @@ excerpt: Look out for this special CodeWork interview with New Media artist <a h
 
 ---
 
-**Coming in June 2015** New Media artist [Daniel Temkin](http://danieltemkin.com/) will discuss [esolangs](http://esoteric.codes), or esoteric programming languages, his particular esolang projects, the esolang community, and intersections between programming and human languages.
+### Coming in June 2015!
+
+New Media artist [Daniel Temkin](http://danieltemkin.com/) will discuss [esolangs](http://esoteric.codes), or esoteric programming languages, his particular esolang projects, the esolang community, and intersections between programming and human languages.
 
 The (text-based) interview will be published here on the CodeWork website in mid-June 2015.
 
