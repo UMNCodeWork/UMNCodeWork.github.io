@@ -5,7 +5,7 @@ title: The rhetorics of code-work and programming as writing
 category: past_events
 =======
 title: The Rhetorics of Code-Work and Programming as Writing
-category: upcoming_events
+category: past_events
 >>>>>>> 5b32ffd4dd6bcd7f946168a772267f40c85a76bd
 
 start_time: 12pm
