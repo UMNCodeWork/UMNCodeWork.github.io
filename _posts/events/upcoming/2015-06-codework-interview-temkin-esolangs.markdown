@@ -1,10 +1,7 @@
 ---
-layout: novideo_event
+layout: novideonomap_event
 title: Interview with New Media artist Daniel Temkin on Esolangs
 category: upcoming_events
-
-location: University of Minnesota
-map_address: Minneapolis, MN 55404
 
 excerpt: Look out for this special CodeWork interview with New Media artist [Daniel Temkin](http://danieltemkin.com/). We will discuss esolangs, or esoteric programming languages, his particular esolang projects, the esolang community, and intersections between programming and human languages.
 

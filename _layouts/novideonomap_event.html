@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<div class="row">
+  <ul class="breadcrumbs">
+    <li><a href="{{site.baseurl}}/index.html">Home</a></li>
+    <li><a href="{{site.baseurl}}/events.html">Events</a></li>
+    <li class="current">{{ page.title }}</li>
+  </ul>
+</div>
+
+
+<article>
+
+  <div class="row">
+    <h2>{{ page.title }}</h2>
+  </div>
+
+  <div class="row">
+    <header class="large-6 medium-5 small-12 columns">
+        <strong><span class="eventtime"><i class="fi-clock"></i><time datetime="{{page.date|date:"%F"}}"> {{page.date|date:"%b %d, %Y"}}; {{page.start_time}} - {{page.end_time}}</time></span></strong><br />
+        <span class="category"><i class="fi-list-thumbnails"></i> {{ page.categories | category_links }}</span><br/>
+        <span class="author"><i class="fi-torso"></i> {% if page.host %}{{page.host}}{% else %}{{site.author}}{% endif%}</span>
+    </header>
+
+    <div class="large-6 medium-7 small-12 columns">
+      <!-- TERMINAL DESCRIPTION: modified from http://codepen.io/pedox/pen/oIawn/ -->
+      <div class='window'>
+        <div class='head'>
+          <a href="#" class='btn'>&#10005;</a>
+          <a href="#" class='btn stnd'>&#9472;</a>
+          <a href="#" class='btn stnd max'>&#9723;</a>
+          <span>admin@codework:~</span>
+        </div>
+        <div class='term'>
+          <p>admin@codework:~$ sudo codework<span class='cursor'>&#9610;</span></p>
+          <p class="term-desc">
+            {{ page.excerpt }}
+          </p>
+        </div>
+      </div>
+      <!-- / TERMINAL DESCRIPTION -->
+    </div>
+  </div>
+
+  <div class="row">
+    <hr/>
+  </div>
+
+  <div class="row">
+    <div class="content large-8 small-12 columns">{{ content | markdownify }}</div>
+  </div>
+
+</article>
