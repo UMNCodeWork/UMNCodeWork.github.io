@@ -57,8 +57,8 @@ The CodeWork Unconference brought together U of M and Twin Cities community memb
 
 We conducted 3 interview sessions with three prominant multi-disciplinary programs and tracks related to new fields such as Digital Studies. We interviewed the three following scholars from different major universities, who have played integral roles in developing Digital Studies educational pathways:
 
-[Dr. James Brown, Jr.](http://www.jamesjbrownjr.net/), Director of [Digital Studies Center](http://digitalstudies.camden.rutgers.edu/) at Rutgers-Camden
+*   [Dr. James Brown, Jr.](http://www.jamesjbrownjr.net/), Director of [Digital Studies Center](http://digitalstudies.camden.rutgers.edu/) at Rutgers-Camden
 
-[Dr. Lisa Nakamura](http://lisanakamura.net/), Coordinator of [Digital Studies](http://www.lsa.umich.edu/digitalstudies) at University of Michigan
+*   [Dr. Lisa Nakamura](http://lisanakamura.net/), Coordinator of [Digital Studies](http://www.lsa.umich.edu/digitalstudies) at University of Michigan
 
-[Dr. Robert Glenn Howard](http://rghoward.com/), Director of [Digital Studies](http://digitalstudies.wisc.edu/) at University of Wisconsin-Madison
+*   [Dr. Robert Glenn Howard](http://rghoward.com/), Director of [Digital Studies](http://digitalstudies.wisc.edu/) at University of Wisconsin-Madison
