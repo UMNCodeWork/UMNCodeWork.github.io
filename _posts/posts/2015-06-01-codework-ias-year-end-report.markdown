@@ -51,7 +51,7 @@ Outcomes
 
 ### CodeWork Unconference + Hackathon
 
-The CodeWork Unconference brought together U of M and Twin Cities community members to talk about code and the ways it shapes our lives, work, and scholarship. Attendees were given autonomy and encouragement to propose their own sessions, and a wealth of diverse topics emerged--ranging from privacy and personal liberties, to doing data science with Python, to effective community organizing and collaboration with coding tools. Participants self-organized into groups throughout the day for several rounds of discussion, co-learning, and collaborative problem-solving. The event took place in the Northrop Crosby Seminar Room, and session notes can be found on the CodeWork GitHub page: https://github.com/umncodework
+The CodeWork Unconference brought together U of M and Twin Cities community members to talk about code and the ways it shapes our lives, work, and scholarship. Attendees were given autonomy and encouragement to propose their own sessions, and a wealth of diverse topics emerged--ranging from privacy and personal liberties, to doing data science with Python, to effective community organizing and collaboration with coding tools. Participants self-organized into groups throughout the day for several rounds of discussion, co-learning, and collaborative problem-solving. The event took place in the Northrop Crosby Seminar Room, and session notes can be found on the CodeWork GitHub page: [https://github.com/umncodework](https://github.com/umncodework).
 
 ### Discussions with Digital Studies Program Directors
 
