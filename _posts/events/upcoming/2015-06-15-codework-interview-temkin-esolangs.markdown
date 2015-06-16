@@ -37,6 +37,9 @@ New Media artist [Daniel Temkin](http://danieltemkin.com/) discusses [esolangs](
   <p>
     The CodeWork team is thrilled and honored to present this interview between CodeWork member, Chris Lindgren, and new media artist, <a href="http://danieltemkin.com/" target="_blank">Daniel Temkin</a>.
   </p>
+  <p>
+    Please feel free to share this interview (#codework). You can contact either Chris (<a href="https://twitter.com/lndgrn" target="_blank">@lndgrn</a>) or Daniel (<a href="https://twitter.com/rottytooth" target="_blank">@rottytooth</a>) on Twitter.
+  </p>
   <figure class="figure-inline">
     <img class="blog-photo" src="/images/temkin-esolang-studio.jpg" alt="Temkin in studio demoing esolang program for the Commodore." />
     <figcaption>
