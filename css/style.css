@@ -167,6 +167,9 @@ footer {
 
 .bio-contact {list-style: none;margin-bottom:5px;}
 
+.interviewer-question {padding:1em;background-color: #eee;}
+.interviewee-response {padding: 1em;}
+
 /* =========================================
    BLOG STYLES
    ========================================= */
