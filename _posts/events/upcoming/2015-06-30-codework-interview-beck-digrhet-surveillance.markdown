@@ -3,15 +3,13 @@ layout: novideonomap_event
 title: Interview with Digital Rhetorician Estee Beck on Algorithmic Surveillance
 category: past_events
 
-excerpt: Look out for this special CodeWork interview with digital rhetorician <a href="http://esteebeck.com/" target="_blank">Dr. Estee Beck</a>. We will discuss digital rhetoric, what is it, and how does it help illuminate issues regarding algorithmic surveillance.
+excerpt: The CodeWork team is proud to present a special CodeWork interview with digital rhetorician <a href="http://esteebeck.com/" target="_blank">Dr. Estee Beck</a>. We discuss digital rhetoric, what is it, and how does it help illuminate issues regarding algorithmic surveillance.
 
 ---
 
 ### Interview with digital rhetorician Dr. Estee Beck on digital rhetoric, algorithms, and surveillance studies
 
-Digital rhetorician [Dr. Estee Beck](http://esteebeck.com/) will discuss the nature of digital rhetoric and its role in helping others to understand the implications of tracking technologies in networked environments.
-
-The (text-based) interview will be published here on the CodeWork website in late-June 2015.
+Digital rhetorician [Dr. Estee Beck](http://esteebeck.com/) discusses the nature of digital rhetoric and its role in helping others to understand the implications of tracking technologies in networked environments.
 
 <!-- INTERVIEWEE -->
 <section id="speakers" class="speakers">
