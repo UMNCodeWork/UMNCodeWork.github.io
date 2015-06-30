@@ -170,6 +170,13 @@ footer {
 .interviewer-question {padding:1em;background-color: #eee;}
 .interviewee-response {padding: 1em;}
 
+.cite > p{
+  margin-left: 0.5in;
+  text-indent: -0.5in;
+  margin-bottom: 2%;
+  line-height: 2em;
+}
+
 /* =========================================
    BLOG STYLES
    ========================================= */
