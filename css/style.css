@@ -205,9 +205,11 @@ footer {
     -webkit-box-shadow: 0 0 5px#888;
 }
 .figure-inline img, .figure-inline span {
-  width:90%;
+  width: 100%;
   display: block;
   padding: 5px;
+  margin: 0 auto;
+  border-radius: 10px
 }
 figcaption {
   padding: 5px;
