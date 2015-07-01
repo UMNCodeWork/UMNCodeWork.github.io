@@ -32,7 +32,7 @@ Digital rhetorician [Dr. Estee Beck](http://esteebeck.com/) discusses the nature
 
 <!-- INTERVIEW TRANSCRIPT -->
 
-<section id="temkin-interview" class="interview">
+<section id="beck-interview" class="interview">
   <h3>Interview transcript with Dr. Estee Beck</h3>
   <p>
     The CodeWork team is thrilled and honored to present this interview between CodeWork member, Chris Lindgren, and digital rhetorician, <a href="http://esteebeck.com" target="_blank">Dr. Estee Beck</a>.
